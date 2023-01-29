@@ -16,19 +16,19 @@ function App() {
         <div className="description">We serve our customer in planning, design, implementation and services of products and technology.</div>
       </div>
       <div className="products">
-        <div className="product bg-red">
+        <div className="product bg-grey">
             <div className="title">DIGITAL TRANSFORMATION</div>
             <div className="description">Transform customer journeys. Deliver innovative results through new digital experiences</div>
         </div>
-        <div className="product bg-grey">
+        <div className="product bg-red">
             <div className="title">CLOUD & DEVOPS AUTOMATION</div>
             <div className="description">Save costs on maintenance and upgrades. Eliminate unnecessary capital expenditure</div>
         </div>
-        <div className="product bg-red">
+        <div className="product bg-grey">
             <div className="title">PRODUCT DEVELOPMENT</div>
             <div className="description">Utilize highly-skilled development resources. Build workflows, software and digital processes</div>
         </div>
-        <div className="product bg-grey">
+        <div className="product bg-red">
             <div className="title">HUMAN CAPITAL</div>
             <div className="description">Build and grow knowledge, skills, habits, and personality attributes. Increase productivity.</div>
         </div>

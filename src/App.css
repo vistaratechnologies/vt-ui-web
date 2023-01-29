@@ -35,6 +35,26 @@ header.App-header {
     /* background: url("./assets/images/birds.svg") no-repeat; */
 }
 
+@media only screen and (max-width: 600px) {
+    .banner {
+        width: auto !important;
+    }
+    .banner .text {
+        font-size: 1.5rem;
+    }
+    .products {
+        flex-direction: column;
+        height: auto !important;
+        margin: 1rem 0;
+    }
+    .product {
+        margin: 1rem 0;
+    }
+    .banner .description {
+        font-size: 0.75rem;
+    }
+}
+
 .banner .text {
     font-size: 2rem;
     text-transform: uppercase;
@@ -62,6 +82,7 @@ header.App-header {
     flex-direction: column;
     padding: 1rem;
 }
+
 
 .product .title {
     font-size: 1rem;
