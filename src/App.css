@@ -16,17 +16,19 @@ header.App-header {
     font-size: 4rem;
     letter-spacing: -1px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .name {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     padding: 0 1rem;
+    font-weight: 300;
 }
 
 .banner {
     width: 100%;
-    height: 300px;
+    height: 255px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,6 +55,12 @@ header.App-header {
     .banner .description {
         font-size: 0.75rem;
     }
+    .opening {
+        font-size: 0.6rem !important;
+    }
+    .contact {
+        font-size: 1rem !important;
+    }
 }
 
 .banner .text {
@@ -66,18 +74,19 @@ header.App-header {
 .banner .description {
     font-size: 1rem;
     padding-top: 1rem;
+    font-weight: 300;
 }
 
 .products {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
+    height: 250px;
 }
 
 .product {
     width: 250px;
-    height: 125px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -92,6 +101,7 @@ header.App-header {
 
 .product .description {
     font-size: 0.8rem;
+    font-weight: 300;
 }
 
 .bg-red {
@@ -100,4 +110,35 @@ header.App-header {
 
 .bg-grey {
     background: #F2F2F2;
+}
+
+.openings {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.openings .title {
+    color: #E31837;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.opening , .contact {
+    font-size: 1rem;   
+    font-weight: 300;
+    padding: 0.5rem 0;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    background: #F2F2F2;
+    font-weight: 300;
 }

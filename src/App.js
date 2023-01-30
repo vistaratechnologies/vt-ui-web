@@ -12,27 +12,39 @@ function App() {
       </header>
       <div className="banner">
         <div className="text">The world of <span>limitless possibilities</span></div>
-        <div className="description">Delivering Customer value is our business value.</div>
-        <div className="description">We serve our customer in planning, design, implementation and services of products and technology.</div>
+        <div className="description">Our Customer value is our business value.</div>
+        <div className="description">Our focus is to transform businesses through technology.</div>
       </div>
       <div className="products">
         <div className="product bg-grey">
             <div className="title">DIGITAL TRANSFORMATION</div>
-            <div className="description">Transform customer journeys. Deliver innovative results through new digital experiences</div>
+            <div className="description">Transform customer journeys. Deliver innovative results through new digital experiences.</div>
         </div>
         <div className="product bg-red">
             <div className="title">CLOUD & DEVOPS AUTOMATION</div>
-            <div className="description">Save costs on maintenance and upgrades. Eliminate unnecessary capital expenditure</div>
+            <div className="description">Save costs on maintenance and upgrades. Eliminate unnecessary capital expenditure.</div>
         </div>
         <div className="product bg-grey">
             <div className="title">PRODUCT DEVELOPMENT</div>
-            <div className="description">Utilize highly-skilled development resources. Build workflows, software and digital processes</div>
+            <div className="description">Utilize highly-skilled development resources. Build workflows, software and digital processes.</div>
         </div>
         <div className="product bg-red">
             <div className="title">HUMAN CAPITAL</div>
             <div className="description">Build and grow knowledge, skills, habits, and personality attributes. Increase productivity.</div>
         </div>
       </div>
+      <div className="openings">
+        <div className="title">JOB OPENINGS</div>
+        <div className="opening">
+          Currently offering Javascript Developer and Full Stack Developer positions. 
+        </div>
+        <div className="contact">
+        Contact: hr@vistaratechnologies.net
+        </div>
+      </div>
+      <footer className="footer">
+        © Vistara Technologies. All rights reserved.
+      </footer>
     </div>
   );
 }
