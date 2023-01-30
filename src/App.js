@@ -43,7 +43,7 @@ function App() {
         </div>
       </div>
       <footer className="footer">
-        © Vistara Technologies. All rights reserved.
+        © 2023 Vistara Technologies. All rights reserved.
       </footer>
     </div>
   );

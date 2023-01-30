@@ -40,9 +40,14 @@ header.App-header {
 @media only screen and (max-width: 600px) {
     .banner {
         width: auto !important;
+        height: 200px !important;
     }
     .banner .text {
-        font-size: 1.5rem;
+        font-size: 1.1rem !important;
+    }
+
+    .banner .description {
+        font-size: 0.8rem !important;
     }
     .products {
         flex-direction: column;
@@ -56,7 +61,7 @@ header.App-header {
         font-size: 0.75rem;
     }
     .opening {
-        font-size: 0.6rem !important;
+        font-size: 0.7rem !important;
     }
     .contact {
         font-size: 1rem !important;
